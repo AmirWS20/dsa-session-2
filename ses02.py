@@ -15,7 +15,11 @@ def sum_of_squares(x, y):
     """
     # DON'T CHANGE ANYTHING ABOVE
     # YOUR CODE BELOW THIS
-    return 0 # REPLACE THIS LINE WITH YOUR CODE
+
+    square1 = x^2
+    square2 = x^2
+    sum = square1 + square2
+    return sum # REPLACE THIS LINE WITH YOUR CODE
 
 
 def print_grade(mark, grade_high, grade_low):
